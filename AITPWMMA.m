@@ -15,6 +15,8 @@ PerfectSearch[n_] := Select[Range[n], PerfectQ]
 NewtonZero[f_, xi_] := NestWhile[(# - f[#]/f'[#]) &, xi, Unequal, 2]
 g[x_] := x^3 - 2 x^2 + 1
 
+dfdf
+
 (*-----------------------------------------------------*)
 (*Chapter 2 - the Mathematica language                 *)
 (*-----------------------------------------------------*)
